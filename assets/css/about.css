@@ -6,10 +6,12 @@
 }
 .about-img{
 	margin: 0 auto;
+	max-width: 270px;
+	border-radius: 10px;
 }
 .about-detail{
-	font-size: 18px;
-	color: #999;
+	font-size: 16px;
+	color: #696969;
 	font-weight: 200;
 	/*position: absolute;*/
 	/*padding-left: 40px;*/
