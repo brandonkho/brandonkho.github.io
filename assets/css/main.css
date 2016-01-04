@@ -14,10 +14,13 @@ body
 	color: #313131;
 }
 .white{
-	background: #fff ;
+	color: #fff ;
 }
 .purple{
 	background: #4a148c;
+}
+.light-green{
+	background: #7CFC00;
 }
 .section-wrapper{
 	padding-top: 90px;
@@ -170,12 +173,98 @@ body
     50% { opacity:0; }
     100% { opacity:1; }
 }
+/*=================================================
+||				4. Our Service
+==================================================*/
+.service{
+	background: #ededed;
+	position: relative;
+}
+.service .section-title{
+	margin-top: 110px;
+}
+.services{
+	margin-bottom: 100px;
+}
+.service .underline{
+	margin-bottom: 75px;
+}
+.service-img{
+	position: absolute;
+	bottom: 0px;
+}
 
+.twitter-feed{
+	color: #fff;
+}
+.item{
+	text-align: center;
+}
+.item .box{
+	max-width: 370px;
+	max-height: auto;
+	margin: 0 auto;
+}
+.owl-prev, .owl-next
+{
+	position: absolute;
+	top: 10%;
+}
+.owl-next
+{
+	right: -10px;
+}
+.owl-prev
+{
+	left: -10px;
+}
+.owl-prev:before
+{
+    /*content: "\f3d2";*/
+    /*font-family: 'ionicons';*/
+    content: url("../images/left.png");
+}
+.owl-next:before
+{
+    /*content: "\f3d3";*/
+    /*font-family: "ionicons";*/
+    content: url("../images/right.png");
+}
+
+/*=================================================
+||				5. Twitter Feed
+==================================================*/
+.day, .feed{
+	font-size: 15px;
+	font-weight: 200;
+}
+.feed{
+	font-style: italic;
+	margin: 30px 0px;
+}
+.options a{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 15px;
+	padding: 0px 20px;
+}
+.options a i{
+	padding-right: 10px;
+}
+.options a:hover{
+	text-decoration: none;
+}
+.item:hover{
+	cursor: w-resize;
+}
 /*=================================================
 ||				7. Portfolio
 ==================================================*/
 .porfolio{
 	background: #f9f9f9;
+}
+.project-description{
+	color: #fff;
 }
 .container-small{
 	width: 350px;
@@ -231,6 +320,48 @@ body
 }
 
 
+/*=================================================
+||				8. Note
+==================================================*/
+.note{
+	color: #dadada;
+}
+.quote{
+	font-style: italic;
+	font-size: 16px;
+	font-weight: 200;
+	padding: 0px 145px;
+}
+.quoter{
+	font-size: 20px;
+	font-weight: 400;
+	margin-top: 20px;
+}
+
+/*=================================================
+||				9. Fun Facts
+==================================================*/
+.fun{
+	background: #f3f3f3;
+}
+.fun-box{
+	border: 2px solid #313131;
+	text-align: center;
+	padding: 40px 0px;
+	font-size: ;
+}
+.number{
+	font-weight: 700;
+	font-size: 25px;
+}
+.number-title{
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 400;
+}
+.col-sm-6 .fun-box{
+	margin-bottom: 20px;
+}
 /*=================================================
 ||				10. Footer
 ==================================================*/
