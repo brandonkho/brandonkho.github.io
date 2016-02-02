@@ -3,6 +3,7 @@
 ==================================================*/
 @import url(http://fonts.googleapis.com/css?family=Roboto:200,400,700);
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(http://fonts.googleapis.com/css?family=Pacifico:200,400,700);
 
 body
 {
@@ -74,6 +75,7 @@ body
 	height: auto;
 	font-weight: 200;
 	letter-spacing: 5px;
+	font-family: 'Pacifico';
 }
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
 	color: #4B0082;
@@ -93,6 +95,11 @@ body
     padding-top: 50px;
 }
 .navbar-default .navbar-nav>li>a{
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
 	color: #fff;
     /*text-transform: uppercase;*/
     padding-right: 20px;
@@ -101,11 +108,17 @@ body
     font-size: 12px;
     font-weight: 300;
     letter-spacing: 1px;
+    border-radius: 20px;
 }
 .navbar-default .navbar-toggle{
 	border-radius: 0px;
 }
 .navbar-default .navbar-nav>li>a:hover{
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
 	border: 1px solid rgba(255, 255, 255, 0.6);
 	color: #fff;
 }
