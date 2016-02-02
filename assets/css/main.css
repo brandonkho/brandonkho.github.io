@@ -18,10 +18,10 @@ body
 	color: #fff ;
 }
 .purple{
-	background: #4a148c;
+	background: rgb(28, 169, 196);
 }
 .light-green{
-	background: #7CFC00;
+	background: #313131;
 }
 .section-wrapper{
 	padding-top: 90px;
@@ -52,6 +52,8 @@ body
 	width: 50px;
 	margin: 0px auto 60px;
 }
+
+
 /*=================================================
 ||				3. Header
 ==================================================*/
