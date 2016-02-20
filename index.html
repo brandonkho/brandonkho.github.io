@@ -88,14 +88,21 @@
 <!-- About Us -->
 	<section class="about" id="about">
 		<div class="container section-wrapper">
-			<h2 class="section-title black">
-				about me
-			</h2> <!-- /.section-title -->
-			<div class="underline purple"></div>	
+			 <!-- /.section-title -->
+			<div class="section-box"
+			data--20p-bottom="transform: rotateX(-90deg)"
+			data--50p-bottom="transform: rotateX(0deg)"
+			>
+				<div class="section-box2">
+					<span>About Me</span>
+				</div>
+				About Me
+			</div>
+			
 					
 				
 
-			<div class="container-fluid">
+			<div class="container-fluid" style="margin-top: 20px;">
 				<div class="row">
 					<div class="col-md-4">
 						<img src="assets/images/pic.jpg" alt="about" class="about-img">	
@@ -254,7 +261,10 @@
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/contact.js"></script>
 	<script src="assets/js/script.js"></script>
-
+	<script type="text/javascript" src="assets/js/skrollr.min.js"></script>
+    <script type="text/javascript">
+    var s = skrollr.init();
+    </script>
 
 
 </body>
