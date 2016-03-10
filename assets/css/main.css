@@ -90,7 +90,10 @@ body
 ==================================================*/
 .header
 {
-	background: url('../images/sf2.jpg');
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
+    ),url('../images/sf2.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
