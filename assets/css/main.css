@@ -84,6 +84,10 @@ body
 	transform: rotateX(180deg);
 }
 
+.about-img{
+	box-shadow: 3px 3px 3px #888888;
+}
+
 
 /*=================================================
 ||				3. Header
